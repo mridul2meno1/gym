@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gymfitness</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body{
+        color:aliceblue;
+        margin:0%;
+        padding:0%;
+        background:url("img/man1.jpg");
+    }
+</style>
+<body>
+    <header class="header">
+        <div class="left"> <img src ="img/logo.jpg" alt=""></img>
+            <div>fitness planet</div>
+        </div>
+        <div class="mid">
+            <div> <a href="#">home</a></div>
+            <div> <a href="#">services</a></div>
+            <div> <a href="#">fitness calculator</a></div>
+            <div> <a href="#">nutrition </a></div>
+        </div>
+        <div class="right">
+            <button class="btn">call us now</button>  <button class="btn">email us</button>
+        </div>
+    </header>
+    <div class="quote">"just do it"</div>
+    <div class="container"><form action="form">
+            <label for="fname">First name:</label><br>
+            <input type="text"  placeholder="John"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" placeholder="Doe"><br>
+            <label for="lname">email:</label><br>
+            <input type="email"placeholder="email"><br>
+            <label for="lname">contact number:</label><br>
+            <input type="text"placeholder="phone number"><br>
+            <label for="lname">date of birth:</label><br>
+            <input type="number" placeholder="date of birth"><br><br>
+            <button class="btn">submit</button>
+    </form></div>
+    
+</body>
+</html>
+
